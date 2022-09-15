@@ -6,7 +6,7 @@ const App: React.FC = () => {
     return (
         <Refine
             routerProvider={routerProvider}
-            dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
+            dataProvider={dataProvider("https://by7w1cv1.directus.app/items")}
         />
     );
 };
